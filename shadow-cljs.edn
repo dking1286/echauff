@@ -1,0 +1,11 @@
+{:source-paths ["src"]
+ :dependencies []
+ :builds {:app {:target :browser
+                :output-dir "resources/public/compiled/app/js"
+                :asset-path "/compiled/app/js"
+                :devtools {:http-port 3000
+                           :http-root "resources/public"
+                           :before-load dev.dking.echauff.frontend/before-load
+                           :after-load dev.dking.echauff.frontend/after-load}
+                :modules {:main {:entries [dev.dking.echauff.frontend]
+                                 :init-fn dev.dking.echauff.frontend/init}}}}}

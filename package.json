@@ -1,0 +1,27 @@
+{
+  "name": "echauff",
+  "version": "1.0.0",
+  "description": "An application for authoring, saving, and playing back djembe tracks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dking1286/echauff.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dking1286/echauff/issues"
+  },
+  "homepage": "https://github.com/dking1286/echauff#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.19.4"
+  }
+}
